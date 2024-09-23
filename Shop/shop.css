@@ -1,0 +1,110 @@
+*{
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#busca{
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+}
+
+#cabecalho{
+    position: relative;
+    top: 17px;
+    color: rgb(255, 255, 255);
+    background-color:(29, 29, 117);
+}
+#name-cab{
+    text-align: center;
+}
+
+#buscador{
+    cursor: pointer;
+    border-radius: 0px;
+    background-color: white;
+    width: 30px;
+    height: 32px;
+    position: relative;
+    left: 1282px;
+    top: -46px;
+}
+
+#ko{
+    width: 300px;
+    height: 28px;
+    position: relative;
+    left: 940px;
+    top: -57px;
+}
+
+
+body{
+   background-color: rgb(29, 29, 117);
+
+
+
+#ok{
+    
+    border: 1px solid white;
+    background-color: rgb(29, 29, 117);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sec{
+    
+    color: white;
+    font-size: medium;
+}
+
+.pro{
+    color: rgb(255, 255, 255);
+
+}
+
+#produto1{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    -webkit-transition: .5s ease;
+    transition: transform .5s ease;
+}
+#produto1:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+#alpro{
+    
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(29, 29, 117);
+    display: flex;
+    justify-content: space-between;
+}
+    
+#mmc:hover{
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.150) ;
+
+}
+    
+}
+img{
+    border-radius: 10px;
+    width: 100px;
+}
+
+p{
+    position: relative;
+    top: -40px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
